@@ -10,7 +10,7 @@ var calculator = function() {
 	for (var i = 2; i < num; i++) {
 		if($.inArray(i, numbers) == -1) {
 			count++;
-			output+= " &nbsp" + print[i] + " &nbsp";
+			output+= " &nbsp" + i + " &nbsp";
 		} 
 		for (var j = i ; j < num; j+=i) {
 			var temp = i+j;	
