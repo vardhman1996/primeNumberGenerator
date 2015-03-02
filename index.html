@@ -6,19 +6,25 @@
 	<script src = "script.js">
 	</script>
 
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
 
 </head>
 <body>
 
-	<h1> Enter a value to show all the prime numbers from 0 to that number</h1>
+	
+	<div class = "program">
+		<h2> Enter a value to show all the prime numbers from 0 to that number</h2>
+		<input name = "inputNum" type = "number" id = "inputNum"/>
+		<button type = "submit" class = "btn btn-primary"onclick= "calculator()"> Submit</button>
 
-	<input name = "inputNum" type = "number" id = "inputNum"/>
-	<button onclick= "calculator()"> Submit</button>
+		<div id ="count"></div>
 
-	<div id ="count"></div>
-
-	<ul id = "result">
-	</ul>
+		<div id = "result">
+		</div>
+	</div>
 
 </body>
 </html>

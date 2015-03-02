@@ -1,0 +1,26 @@
+body {
+	margin-left: 10px;
+	background: url("math.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+    margin-right: 27%;
+	margin-left: 27%;
+}
+
+li {
+	font-size: 18px;
+}
+
+.program ol {
+	list-style-type: none;
+}
+
+.program {
+	text-align: center;
+}
+
+#result {
+	font-size: 18px;
+}
